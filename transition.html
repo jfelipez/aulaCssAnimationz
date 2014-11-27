@@ -9,15 +9,18 @@
                 width: 100px;
                 height: 100px;
                 background: red;
-                -webkit-transition: width 2s, height 2s, -webkit-transform 2s; /* For Safari 3.1 to 6.0 */
-                transition: width 2s, height 2s, transform 2s;
+                border: 10px solid pink;
+                border-radius: 10px;
+                transition: width 2s, height 2s, transform 2s,border-radius 2s,background 2s,border 2s;
             }
 
             div:hover {
                 width: 200px;
                 height: 200px;
-                -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
-                transform: rotate(180deg);
+                transform: rotate(360deg);
+                border-radius: 100px; 
+                background: green;
+                border: 10px solid yellow;
             }
         </style>
     </head>
